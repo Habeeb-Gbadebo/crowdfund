@@ -1,0 +1,159 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  background: #f4f4f4;
+}
+
+p{
+  margin: 10px 0;
+  font-size: .75rem;
+  color: #ccc;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: .75rem 0;
+}
+
+ul{
+  list-style: none;
+}
+
+/* Utility */
+
+.container{
+  max-width: 1100px;
+  margin: auto;
+}
+
+.card{
+  background: #fff;
+  padding: 2rem;
+  margin: auto;
+  max-width: 505px;
+}
+
+.btn{
+  display: inline-block;
+  padding: .5rem .75rem;
+  border: none;
+  border-radius: 20px;
+}
+
+.btn-primary{
+  background: rgba(14, 174, 104, 0.672);
+}
+
+.btn-light{
+  background: #ddd;
+  color: #333;
+}
+
+
+.btn-color{
+  color:rgba(14, 174, 104, 0.672); ;
+}
+
+py-1{padding: 1.5rem 0;}
+py-2{padding: 2rem 0;}
+py-3{padding: 3rem 0;}
+
+p-1{padding: 1.5rem;}
+p-2{padding: 2rem;}
+p-3{padding: 3rem;}
+
+.sticker{
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* Main Nav */
+
+#main-nav{
+  background: url('../image_resources/showcase.jpg') no-repeat center center/cover;
+  height: 40vh;
+}
+
+#main-nav .nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+#main-nav .nav-container ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+#main-nav .nav-container ul li a{
+  padding: .75rem;
+}
+
+#main-nav h2{
+  color: #fff;
+}
+
+/* Showcase */
+#showcase {
+  margin-top: -50px;
+}
+
+#showcase .card h2,
+#showcase .card p{
+  text-align: center;
+}
+
+#showcase .card div > div{
+  display: flex;
+  justify-content: space-between;
+}
+
+#showcase .card{
+  margin-bottom: 30px;
+}
+
+#showcase .card:nth-child(2){
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+#showcase .card:nth-child(2) div:first-child{
+  border-right: 1px solid #ddd;
+  padding: 1rem;
+}
+
+#showcase .card:nth-child(2) div:nth-child(2){
+  border-right: 1px solid #ddd;
+  padding: 1rem;
+}
+
+#showcase .card:nth-child(3) div:nth-child(2){
+  display: flex;
+  justify-content: space-between;
+}
+
+.float{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
